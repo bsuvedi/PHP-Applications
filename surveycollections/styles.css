@@ -1,0 +1,164 @@
+body 
+{
+	margin:0;
+	
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+.jumbotron {
+    padding-top: 14px;
+    padding-bottom: 7px;
+    padding-left: 37px;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.wrapper
+{
+	width:930px;
+	margin:0 auto;
+}
+
+.header
+{
+	width:910px;
+	height:177px;
+	background-image:url('header.png');
+	margin-left:20px;
+	margin-top:25px;
+	
+	
+}
+.firstdiv
+{
+	width:600px;
+    background-image:url('');
+	height:300px;
+	
+	margin:0 auto;
+	margin-top:50px;
+	border-radius:15px;
+	padding:30px;
+	font-size:20px;
+	
+}
+
+.ctitles
+{
+  border-radius:5px;
+  width:350px;
+  height:20px;
+  margin-left:20px;
+  
+}
+.csmall
+{
+	border-radius:5px;
+  width:100px;
+  height:20px;
+  margin-left:20px;
+}
+.select
+{
+	border-radius:5px;
+	 height:25px;
+	 width:100px;
+	  margin-left:20px;
+}
+#next
+{
+	background-image:url('next.png');
+	width:94px;
+	height:94px;
+	float:left;
+	margin-left:40px;
+	margin-top:160px;
+}
+#next:hover
+{
+	background-image:url('next_hover.png');
+	width:94px;
+	height:94px;
+	float:left;
+	margin-left:40px;
+	margin-top:160px;
+	cursor:pointer;
+}
+.seconddiv
+{
+	width:900px;
+	margin:0 auto;
+	padding:20px;
+	background-image:url('first_back.png');
+	height: 1070px;
+	border-radius:25px;
+	margin-top:15px;
+	font-size:18px;
+    color: white;
+	
+}
+
+#hnote{
+    
+    color:#D25900;
+    font-family: 'Oswald', sans-serif;
+    
+    
+    
+}
+
+#snote{
+    
+    color:#D25900;
+    font-family: 'Oswald', sans-serif;
+}
+
+#note {
+    
+   font-family: 'Oswald', sans-serif;
+    
+}
+.radio
+{
+	font-size:14px;
+	padding-top:5px;
+	
+	padding-bottom:5px;
+	margin-bottom:10px;
+	color:#D25900;
+    left: 80px;
+    margin-left:2px;
+	
+}
+.radio input
+{
+	margin-left:2px;
+}t
+
+#submit
+{
+	background-color:black;
+	border-radius:9px;
+	width:137px;
+	height:60px;
+	color:White;
+	font-size:24px;
+	font-weight:bold;
+	margin:0 auto;
+	border:0;
+	margin-top:10px;
+	margin-left:390px;
+	cursor:pointer;
+}
+
+.fa fa-plane {
+    
+    color:white;
+    
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+    margin-left:2px;
+}

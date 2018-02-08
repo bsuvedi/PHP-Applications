@@ -1,0 +1,259 @@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel = stylesheet href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>Student Opinion Report</title>
+</head>
+<body>
+
+<div class="wrapper">
+<form name="sender" method="post" action="database.php">
+<div class="header">
+    
+
+</div>
+    <section>
+        <p id = "hnote"> <center> Your feedback on the kind of devices that students use helps us understand computing and networking needs. Please answer all questions thoughtfully.</center></p>
+    </section>
+    
+<div class="firstdiv">
+   <div class = "jumbotron">
+<table>
+<tr>
+<td>College/University: </td>
+<td><input type="text" name="college" class="ctitles" required/></td>
+</tr>
+
+
+
+
+<tr>
+<td> Graduation Year : </td>
+<td><select class="select" size="1" name="cyear" >
+<option value="2012">2012</option>
+<option value="2">2013</option>
+<option value="1">2014</option>
+<option value="2">2015</option>
+<option value="2">2016</option>
+</select>
+</td>
+
+</tr>
+
+<tr>
+<td>Class : </td>
+<td><select class="select" size="1" name="cclass" >
+<option value="1">Freshmen</option>
+<option value="2">Sophmore</option>
+<option value="3">Junior</option>
+<option value="4">Senior</option>
+    
+    
+    
+
+</select>
+</td>
+
+</tr>
+    
+
+    
+</table>
+    <br>
+    <p id = "snote"> What kind of devices do you have at home? </p>
+    <span> <input type="checkbox" name="apple" value="apple" id = "note">Have Apple </span> &nbsp;&nbsp;&nbsp;&nbsp;
+    
+    <span> <input type="checkbox" name="windows" value="windows" id = "note">Have Windows  </span>&nbsp;&nbsp;&nbsp;&nbsp;
+    
+    <span><input type="checkbox" name="linux" value="linux" id = "note">Have Linux </span>&nbsp;&nbsp;&nbsp;&nbsp;
+    
+    <br>
+    
+    <span><input type="checkbox" name="cable" value="cable" id = "note">Have Cable </span>&nbsp;&nbsp;&nbsp;  
+    
+    <span><input type="checkbox" name="tv" value="tv" id = "note">Have TV </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+<span><input type="checkbox" name="phone" value="phone" id = "note">Have Phone </span>&nbsp;&nbsp;&nbsp;&nbsp;<br>
+    
+<input type="checkbox" name="office" value="office" id = "note">Have Office <br>
+
+</div>
+    </div>
+<div class="seconddiv">
+1.&nbsp;&nbsp; I like my Computer.
+<div class="radio">
+<input type="radio" name="q1" id="q1" value="5">
+				<label for="q1">Strongly Agree</label>
+				<input type="radio" name="q1" id="q1" value="4">
+				<label for="q1">Agree</label>
+				<input type="radio" name="q1" id="q1" value="3">
+				<label for="q1">Undecided</label>
+<input type="radio" name="q1" id="q1" value="2">
+				<label for="q1">Disagree</label>
+<input type="radio" name="q1" id="q1" value="1">
+				<label for="q1">Strongly Disagree</label>
+
+
+				</div>
+    <hr>
+2.&nbsp;&nbsp; I would rather use a smartphone or tablet instead of a computer.
+<div class="radio">
+<input type="radio" name="q2" id="Radio5" value="5">
+				<label for="q2">Strongly Agree</label>
+				<input type="radio" name="q2" id="q2" value="4">
+				<label for="q2">Agree</label>&nbsp;&nbsp;
+				<input type="radio" name="q2" id="q2" value="3">
+				<label for="q2">Undecided</label>&nbsp;&nbsp;
+<input type="radio" name="q2" id="q2" value="2">&nbsp;&nbsp;
+				<label for="q2">Disagree</label>
+<input type="radio" name="q2" id="q2" value="1">
+				<label for="q2">Strongly Disagree</label>
+
+
+				</div>	
+    <hr>
+3.&nbsp;&nbsp; I like the operating system on my computer(MAC, Windows, Linux).
+<div class="radio">
+<input type="radio" name="q3" id="Radio10" value="5">
+				<label for="q3">Strongly Agree</label>
+				<input type="radio" name="q3" id="q3" value="4">
+				<label for="q3">Agree</label>
+				<input type="radio" name="q3" id="q3" value="3">
+				<label for="q3">Undecided</label>
+<input type="radio" name="q3" id="q3" value="2">
+				<label for="q3">Disagree</label>
+<input type="radio" name="q3" id="q3" value="1">
+				<label for="q3">Strongly Disagree</label>
+
+
+				</div>
+    <hr>
+				4.&nbsp;&nbsp; I like Microsoft Office 2010 or 2007.
+<div class="radio">
+<input type="radio" name="q4" id="Radio15" value="5">
+				<label for="q4">Strongly Agree</label>
+				<input type="radio" name="q4" id="q4" value="4">
+				<label for="q4">Agree</label>
+				<input type="radio" name="q4" id="q4" value="3">
+				<label for="q4">Undecided</label>
+<input type="radio" name="q4" id="q4" value="2">
+				<label for="q4">Disagree</label>
+<input type="radio" name="q4" id="q4" value="1">
+				<label for="q4">Strongly Disagree</label>
+
+
+				</div>
+    <hr>
+				5.&nbsp;&nbsp; I am happy with the devices I have
+<div class="radio">
+<input type="radio" name="q5" id="Radio20" value="5">
+				<label for="q5">Strongly Agree</label>
+				<input type="radio" name="q5" id="q5" value="4">
+				<label for="q5">Agree</label>
+				<input type="radio" name="q5" id="q5" value="3">
+				<label for="q5">Undecided</label>
+<input type="radio" name="q5" id="q5" value="2">
+				<label for="q5">Disagree</label>
+<input type="radio" name="q5" id="q5" value="1">
+				<label for="q5">Strongly Disagree</label>
+
+
+				</div>	
+    <hr>
+				6.&nbsp;&nbsp; These devices make my life easier as an academic student.
+<div class="radio">
+<input type="radio" name="q6" id="Radio25" value="5">
+				<label for="q6">Strongly Agree</label>
+				<input type="radio" name="q6" id="q6" value="4">
+				<label for="q6">Agree</label>
+				<input type="radio" name="q6" id="q6" value="3">
+				<label for="q6">Undecided</label>
+<input type="radio" name="q6" id="q6" value="2">
+				<label for="q6">Disagree</label>
+<input type="radio" name="q6" id="q6" value="1">
+				<label for="q6">Strongly Disagree</label>
+
+
+				</div>	
+    <hr>
+				7.&nbsp;&nbsp; Microsoft Office help for homework assignments and Classroom projects.
+<div class="radio">
+<input type="radio" name="q7" id="Radio30" value="5">
+				<label for="q7">Strongly Agree</label>
+				<input type="radio" name="q7" id="q7" value="4">
+				<label for="q7">Agree</label>
+				<input type="radio" name="q7" id="q7" value="3">
+				<label for="q7">Undecided</label>
+<input type="radio" name="q7" id="q7" value="2">
+				<label for="q7">Disagree</label>
+<input type="radio" name="q7" id="q7" value="1">
+				<label for="q7">Strongly Disagree</label>
+
+
+				</div>	
+    <hr>
+				8.&nbsp;&nbsp; Gadgests are Awesome.
+<div class="radio">
+<input type="radio" name="q8" id="Radio35" value="5">
+				<label for="q8">Strongly Agree</label>
+				<input type="radio" name="q8" id="q8" value="4">
+				<label for="q8">Agree</label>
+				<input type="radio" name="q8" id="q8" value="3">
+				<label for="q8">Undecided</label>
+<input type="radio" name="q8" id="q8" value="2">
+				<label for="q8">Disagree</label>
+<input type="radio" name="q8" id="q8" value="1">
+				<label for="q8">Strongly Disagree</label>
+
+
+				</div>	
+    <hr>
+				9.&nbsp;&nbsp;  Your Cable TV is working properly.
+<div class="radio">
+<input type="radio" name="q9" id="Radio40" value="5">
+				<label for="q9">Strongly Agree</label>
+				<input type="radio" name="q9" id="q9" value="4">
+				<label for="q9">Agree</label>
+				<input type="radio" name="q9" id="q9" value="3">
+				<label for="q9">Undecided</label>
+<input type="radio" name="q9" id="q9" value="2">
+				<label for="q9">Disagree</label>
+<input type="radio" name="q9" id="q9" value="1">
+				<label for="q1">Strongly Disagree</label>
+
+
+				</div>	
+    <hr>
+				10.&nbsp;&nbsp; Your mobile device is working properly.
+<div class="radio">
+<input type="radio" name="q10" id="Radio45" value="5">
+				<label for="q10">Strongly Agree</label>
+				<input type="radio" name="q10" id="q10" value="4">
+				<label for="q10">Agree</label>
+				<input type="radio" name="q10" id="q10" value="3">
+				<label for="q10">Undecided</label>
+<input type="radio" name="q10" id="q10" value="2">
+				<label for="q10">Disagree</label>
+<input type="radio" name="q10" id="q10" value="1">
+				<label for="q10">Strongly Disagree</label>
+
+
+				</div>	
+				
+</div>
+
+    <button type="submit" class="btn btn-success" id = "submit">Submit <i class = "fa fa-plane"> </i></button>
+<br />
+<br />
+</form>
+</div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
